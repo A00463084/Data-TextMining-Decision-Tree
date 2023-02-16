@@ -5,7 +5,7 @@ st.title("Deploying the Model")
 
 Labels = ['setosa','veriscolor','virginica']
 
-clf = load("dt.joblib") # Accessing the file
+clf = load('dt.joblib') # Accessing the file
 
 sp_l= st.slider('Sepal Length (cm)',min_value=0,max_value=10)
 
